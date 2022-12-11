@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+#iniciar{
+    color: white;
+}
+#crear{
+    color: white;
+}
+#hu{
+    margin: 10px;
+}
+#btnAdd{
+    margin: 10px;
+}
+#BtnCAG{
+    margin: 5px;
+}
+#BtnPhone{
+    margin: 5px;
+}
+#contQR{
+    position: relative;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+#cerrar{
+    color: white;
+}
+#bp{
+    color: white;
+}
+#offcanvasNavbar{
+    background: #313436;
+}
