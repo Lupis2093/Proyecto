@@ -101,10 +101,10 @@ btnQR.forEach((btn)=>{
 
 const btnAdd=document.querySelector("#btnAdd");
 btnAdd.addEventListener("click",()=>{
-    const mod=document.querySelector("#emod").value;
-    const tropa=document.querySelector("#etropa").value;
-    const precio=document.querySelector("#eprecio").value;
-    const color=document.querySelector("#ecolor").value;
+    const mod=document.querySelector("#mod").value;
+    const tropa=document.querySelector("#tropa").value;
+    const precio=document.querySelector("#precio").value;
+    const color=document.querySelector("#color").value;
 
     if(mod=="" || tropa=="" || precio=="" || color==""){
         Swal.fire("falta llenar Campos");
