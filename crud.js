@@ -38,7 +38,7 @@ btnQR.forEach((btn)=>{
       try{
       id=btn.dataset.id;
       console.log(id);
-      const data=await getDoc(doc(db, "productos", id));
+      const data=await getDoc(doc(db, "prendas", id));
       const prenda=data.data();
       const contQR=document.getElementById('contQR');
       contQR.innerHTML=""
@@ -151,7 +151,7 @@ btnSave.addEventListener("click",()=>{
     Swal.fire({
         icon: 'success',
         title: 'Success',
-        text: 'You´r register is save'
+        text: 'Se han guardado los cambios'
     })
     document.querySelector("#formEdit").reset();
 });
